@@ -1,0 +1,1 @@
+{"ast":null,"code":"const Index = () => {};","map":{"version":3,"sources":["/home/brijesh/WORKSPACE/development/REACT/BitPrice/pages/index.js"],"names":["Index"],"mappings":"AAEA,MAAMA,KAAK,GAAE,MACb,CAEC,CAHD","sourcesContent":["\n\nconst Index =()=>\n{\n    \n}"]},"metadata":{},"sourceType":"script"}

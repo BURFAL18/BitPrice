@@ -1,0 +1,1 @@
+{"ast":null,"code":"class Prices extends React.Component {}","map":{"version":3,"sources":["/home/brijesh/WORKSPACE/development/REACT/BitPrice/Components/Prices.js"],"names":["Prices","React","Component"],"mappings":"AAAA,MAAMA,MAAN,SAAqBC,KAAK,CAACC,SAA3B,CACA","sourcesContent":["class Prices extends React.Component\n{\n    \n}"]},"metadata":{},"sourceType":"script"}
