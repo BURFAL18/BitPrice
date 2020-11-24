@@ -1,3 +1,5 @@
+import React from 'react';
+
 class Prices extends React.Component {
   state = {
     currency: "USD",
@@ -9,7 +11,7 @@ class Prices extends React.Component {
         <ul className="list-group">
           <li className="list-group-item">
             Bitcoin Rate For {this.props.bpi[this.state.currency].description} :
-            <span className="badge badge-primary">
+            <span className="badge badge-success">
               {this.props.bpi[this.state.currency].code}
             </span>
             <strong>{this.props.bpi[this.state.currency].rate}</strong>

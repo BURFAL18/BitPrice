@@ -723,13 +723,19 @@ var external_isomorphic_unfetch_default = /*#__PURE__*/__webpack_require__.n(ext
 // EXTERNAL MODULE: ./Components/Layout.js + 2 modules
 var Layout = __webpack_require__("plLG");
 
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
 // CONCATENATED MODULE: ./Components/Prices.js
 
 
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-class Prices_Prices extends React.Component {
+
+
+class Prices_Prices extends external_react_default.a.Component {
   constructor(...args) {
     super(...args);
 
@@ -745,7 +751,7 @@ class Prices_Prices extends React.Component {
         children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("li", {
           className: "list-group-item",
           children: ["Bitcoin Rate For ", this.props.bpi[this.state.currency].description, " :", /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
-            className: "badge badge-primary",
+            className: "badge badge-success",
             children: this.props.bpi[this.state.currency].code
           }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("strong", {
             children: this.props.bpi[this.state.currency].rate
